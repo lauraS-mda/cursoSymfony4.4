@@ -1,0 +1,17 @@
+<div class="container">
+<form action="{{ path('login_validausu')}}" method="Post">
+  <div class="form-group">
+    <label for="email">Email address</label>
+    <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp">
+    <small id="emailHelp" class="form-text text-muted"></small>
+  </div>
+  <div class="form-group">
+    <label for="pass">Password</label>
+    <input type="password" class="form-control" id="pass" name="pass">
+  </div>
+ <p><input type="submit" value="Ingresar"></p>
+ <p> {{ respuesta }} </p>
+  
+  
+</form>
+</div>
